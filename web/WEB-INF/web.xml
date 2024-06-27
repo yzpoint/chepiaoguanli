@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--        表明这是一个使用UTF-8编码的XML文档。-->
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <!--    xmlns: 定义了Java EE部署描述符的XML命名空间（http://xmlns.jcp.org/xml/ns/javaee）。-->
+    <!--    xmlns:xsi: 定义了XML实例命名空间（http://www.w3.org/2001/XMLSchema-instance）。-->
+    <!--    xsi:schemaLocation: 指定了XML模式的位置，这里指向了Java EE的Web应用程序模式（http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd）。-->
+    <!--    version: 指定了Servlet API的版本为4.0。-->
+</web-app>

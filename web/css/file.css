@@ -1,0 +1,96 @@
+.progress{
+    margin-top:2px;
+    width: 200px;
+    height: 14px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+/*margin-top: 上边距为2px。*/
+/*width: 宽度为200px。*/
+/*height: 高度为14px。*/
+/*margin-bottom: 下边距为10px。*/
+/*overflow: 溢出隐藏。*/
+/*background-color: 背景颜色为浅灰色 (#f5f5f5)。 */
+/*border-radius: 边框圆角为4px。*/
+/*box-shadow: 设置内部阴影效果，使进度条看起来有立体感。*/
+.progress-bar{
+    background-color: rgb(92, 184, 92);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.14902) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.14902) 50%, rgba(255, 255, 255, 0.14902) 75%, transparent 75%, transparent);
+    background-size: 40px 40px;
+    box-shadow: rgba(0, 0, 0, 0.14902) 0px -1px 0px 0px inset;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: block;
+    float: left;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    transition-delay: 0s;
+    transition-duration: 0.6s;
+    transition-property: width;
+    transition-timing-function: ease;
+    width: 266.188px;
+}
+/*background-color: 进度条背景颜色为绿色 (rgb(92, 184, 92))。*/
+/*background-image: 背景图像为斜线条纹，用于增加视觉效果。*/
+/*background-size: 设置背景图像大小为40px x 40px。*/
+/*box-shadow: 设置内部阴影效果。*/
+/*box-sizing: 设置盒模型为边框盒模型。 */
+/*color: 文字颜色为白色。*/
+/*display: 显示类型为块级元素。*/
+/*float: 元素浮动在左侧。*/
+/*font-size: 字体大小为12px。*/
+/*height: 元素高度为20px。*/
+/*line-height: 行高为20px。*/
+/*text-align: 文本居中对齐。*/
+/*transition-*: 设置过渡效果，使宽度变化时动画效果更平滑。*/
+/*width: 初始宽度为266.188px。*/
+
+.file {
+    position: relative;
+    display: inline-block;
+    background-color: #337ab7;
+    border-radius: 4px;
+    padding: 8px 12px;
+    overflow: hidden;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+}
+/*position: 相对定位。*/
+/*display: 显示类型为内联块级元素。*/
+/*background-color: 背景颜色为深蓝色 (#337ab7)。*/
+/*border-radius: 边框圆角为4px。*/
+/*padding: 内边距为上下各8px，左右各12px。*/
+/*overflow: 溢出隐藏。*/
+/*color: 文字颜色为白色 (#FFFFFF)。*/
+/*text-decoration: 文本装饰为无。*/
+/*text-indent: 文本缩进为0。*/
+/*line-height: 行高为20px。*/
+.file input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+/*.file 类内部的 input 元素样式。*/
+/*position: 绝对定位。*/
+/*font-size: 字体大小为100px。*/
+/*right: 距离右边为0。*/
+/*top: 距离顶部为0。*/
+/*opacity: 透明度为0，使得文件选择框不可见。*/
+.file:hover {
+    background: #598FBE;
+    text-decoration: none;
+}
+/*:hover 伪类，鼠标悬停时的样式。*/
+/*background: 悬停时背景颜色变为浅蓝色 (#598FBE)。*/
+/*text-decoration: 文本装饰为无。*/
+
